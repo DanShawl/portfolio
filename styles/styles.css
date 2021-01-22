@@ -662,11 +662,18 @@ main .project-box .project-link {
     grid-column: 1/5;
     border: 2px solid #292929;
   }
+  header .nav-links .contact-btn:hover {
+    background-color: #c7c7c7;
+  }
   header .nav-links .resume-btn {
     -ms-grid-column: 5;
     -ms-grid-column-span: 4;
     grid-column: 5/9;
     border: none;
+  }
+  header .nav-links .resume-btn h4:hover,
+  header .nav-links .resume-btn i:hover {
+    color: #c7c7c7;
   }
   header .nav-links .skills-btn {
     display: none;

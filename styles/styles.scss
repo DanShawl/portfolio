@@ -536,9 +536,16 @@ main {
         // border: 2px solid rgb(194, 194, 194);
         border: 2px solid $colorPrimary;
       }
+      .contact-btn:hover {
+        background-color: rgb(199, 199, 199);
+      }
       .resume-btn {
         grid-column: 5/9;
         border: none;
+      }
+      .resume-btn h4:hover,
+      .resume-btn i:hover {
+        color: rgb(199, 199, 199);
       }
       .skills-btn {
         display: none;
